@@ -28,7 +28,7 @@ const App = () => {
   return (
     <>
       <Header />
-      <div className="bg-primary p-12 font-serif h-max text-white users-container grid grid-cols-1 md:grid-cols-3 gap-4">
+      <div className="bg-primary p-6 font-serif h-max text-white users-container grid grid-cols-1 md:grid-cols-3 gap-4">
         {isLoading ? (
           // Display the skeleton loader while data is being fetched
           <SkeletonLoader />
